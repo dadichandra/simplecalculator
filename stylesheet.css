@@ -1,0 +1,44 @@
+.calculator{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.calculator-screen{
+    width: 50%;
+    height: 65px;
+    background-color: grey;
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.calculator-keys{
+    width: 50%;
+    padding: 0 338px;
+}
+.row{
+    display: flex;
+}
+button{
+    height: 80px;
+    background-color: rgb(72, 83, 83);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 32px;
+    color: white;
+    width: 25%;
+    outline: none;
+}
+.all-clear, .zero-btn{
+    width: 50%;
+}
+.operator, .equal-sign{
+    background-color: rgb(55, 131, 131);
+}
+button:hover{
+    background-color: darkgray;
+}
+.operator:hover, .equal-sign:hover{
+    background-color: gainsboro;
+}
